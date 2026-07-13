@@ -1,0 +1,40 @@
+﻿
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Old/incorrect architecture (use plugins/platforms/bitrix24/ instead)
+gateway/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml

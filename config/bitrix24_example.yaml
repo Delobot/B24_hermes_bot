@@ -1,0 +1,21 @@
+# Bitrix24 Adapter Configuration Example
+# Copy this file to config/bitrix24.yaml and fill in your values
+
+platforms:
+  bitrix24:
+    enabled: true
+    extra:
+      # VibeCode API key (required)
+      # Get from: https://vibecode.bitrix24.tech/keys
+      api_key: "vibe_api_YOUR_KEY_HERE"
+
+      # Bitrix24 bot ID (required)
+      # Find in Bitrix24 bot settings
+      bot_id: 19
+
+      # VibeCode API base URL (optional)
+      base_url: "https://vibecode.bitrix24.tech/v1"
+
+      # Polling interval in seconds (optional, default: 3)
+      # Lower = more responsive, higher = less API calls
+      poll_interval: 3

@@ -1,0 +1,9 @@
+name: bitrix24-platform
+label: Bitrix24
+kind: platform
+version: 1.0.0
+description: Bitrix24 gateway adapter for Hermes Agent
+requires_env:
+  - name: VIBE_API_KEY
+    description: "VibeCode API key (vibe_api_...)"
+    url: "https://vibecode.bitrix24.tech/keys"
