@@ -19,7 +19,7 @@ def _env_enablement():
         return None
     return {
         "api_key": api_key,
-        "bot_id": int(os.getenv("BOT_ID", "19")),
+        "bot_id": int(os.getenv("BOT_ID", "0")),
         "base_url": os.getenv("VIBE_API_URL", "https://vibecode.bitrix24.tech/v1"),
         "poll_interval": int(os.getenv("POLL_INTERVAL", "3")),
     }
