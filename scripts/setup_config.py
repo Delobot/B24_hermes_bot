@@ -17,7 +17,7 @@ HERMES_PROFILES = [
 # B24_hermes_bot variables to add
 BOT_VARS = {
     "VIBE_API_KEY": "",
-    "BOT_ID": "19",
+    "BOT_ID": "0",
     "BOT_NAME": "hermes-bot",
     "POLL_INTERVAL": "3",
     "HERMES_MODEL": "",
