@@ -54,7 +54,7 @@ _load_env()
 VIBE_API_KEY = os.environ.get('VIBE_API_KEY', os.environ.get('VIBE_KEY', ''))
 BASE = os.environ.get('VIBE_BASE_URL', 'https://vibecode.bitrix24.tech/v1')
 
-BOT_ID = int(os.environ.get('BOT_ID', '19'))
+BOT_ID = int(os.environ.get('BOT_ID', '0'))
 BOT_NAME = os.environ.get('BOT_NAME', 'HermesBot')
 POLL_INTERVAL = int(os.environ.get('POLL_INTERVAL', '3'))
 HERMES_MODEL = os.environ.get('HERMES_MODEL', 'bitrix/bitrixgpt-5.5')
